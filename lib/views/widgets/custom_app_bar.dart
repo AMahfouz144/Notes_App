@@ -22,4 +22,3 @@ class CustomAppBar extends StatelessWidget {
     );
   }
 }
-

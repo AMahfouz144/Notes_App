@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nots_app/views/widgets/add_buttom_sheet.dart';
+import 'package:nots_app/views/widgets/add_button_sheet.dart';
 import 'package:nots_app/views/widgets/custom_nots_view_body.dart';
 
 class NotsView extends StatelessWidget {
@@ -15,7 +15,7 @@ class NotsView extends StatelessWidget {
                   borderRadius: BorderRadius.circular(16)),
               context: context,
               builder: (context) {
-                return const AddBottomSheet();
+                return const AddButtonSheet();
               });
         },
         child: const Icon(Icons.add),
